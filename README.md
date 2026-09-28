@@ -24,3 +24,9 @@ Street Dash is a browser-based, retro-inspired, plain-style endless runner conce
 
 # Gameplay screenshot
 ![image_alt](https://github.com/vidhikalwani/Street-Dash/blob/4e2c679a06c85518c699e42f4515e4c3b2e57ec8/Game%20start%20page.jpeg)
+[![image_alt](https://github.com/vidhikalwani/Street-Dash/blob/cc7ded38e9df445a7ae06cbe061f93e868b11291/Playing%20the%20game%20(1).jpeg)
+![image_alt](https://github.com/vidhikalwani/Street-Dash/blob/cc7ded38e9df445a7ae06cbe061f93e868b11291/Playing%20the%20game%20(2).jpeg)
+[![image_alt](https://github.com/vidhikalwani/Street-Dash/blob/cc7ded38e9df445a7ae06cbe061f93e868b11291/When%20we%20lose.jpeg)
+
+# Action Demo
+![video](https://github.com/vidhikalwani/Street-Dash/blob/cc7ded38e9df445a7ae06cbe061f93e868b11291/Playing%20the%20game.mp4)
