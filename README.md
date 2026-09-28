@@ -2,19 +2,25 @@
 Street Dash is a browser-based, retro-inspired, plain-style endless runner conceived and prompted by the user and generated with Claude AI. It features a blocky child character, a classic 3-lane track system, jump and slide movement mechanics, simple 3D obstacles, and a smooth camera-follow setup
 
 # The Key Features of Street Dash 
-AI-Assisted Development: Designed through prompt engineering with Claude to generate complete, single-file HTML/JS game code
-Dynamic 3D Environment & Atmospheric Lighting: Features a vibrant, infinite 3D street route surrounded by glowing high-rise buildings, volumetric fog, directional lighting, and shadowing.   
-Responsive 3-Lane Gameplay: Smoothly switch between three lanes (left, center, right) to navigate around obstacles and collect items.    
-Varied Obstacle Mechanics: Test your reflexes against low barriers, traffic cones, trash cans, and colorful cars that require precise jumping or low-sliding maneuvers to dodge.   
-Progressive Speed & Difficulty Scaling: Game velocity automatically accelerates as you run longer distances, increasing the challenge over time.   
-Coin Collection & Visual Effects: Gather gold coins along the track accompanied by spinning animations, burst particle effects upon collection, and on-screen HUD tracking.   
-Third-Person Dynamic Camera Follow: Immersive trailing camera system that tilts with movement and triggers camera shake impacts on collisions.   
-Multi-Input Cross-Platform Controls: Full support for both desktop keyboard inputs (Arrow Keys / WASD / Spacebar) and mobile swipe gestures.
-Action Mechanics: Full jump and low-slide physics paired with dynamic character squish/scale animations.    
+1. AI-Assisted Development: Designed through prompt engineering to generate complete, single-file HTML/JS game code powered by Three.js and the Web Audio API.
+2. Dynamic 3D Environment & Atmospheric Lighting: Features a vibrant, infinite 3D street route surrounded by colorful, glowing high-rise buildings, volumetric fog, ambient fill lights, and directional sun casting real-time soft shadows.
+3. Responsive 3-Lane Gameplay: Smoothly switch between three lanes (left, center, right) to navigate around obstacles and collect items.
+4. Varied Jump & Slide Obstacle Mechanics: Test your reflexes against low hurdles and roadblocks (jump required), overhead signs and low-hanging barriers (slide required), traffic cones, trash cans, and colorful cars.
+5. High-Tempo Progressive Speed & Difficulty Scaling: Game velocity starts at a high-tempo base pace (15) and automatically accelerates up to a fast-paced maximum speed (35) as your score rises, dramatically increasing the challenge over time.
+6. Synthesized Web Audio Engine & BGM: Fully procedural audio system built with the Web Audio API that generates custom looping chiptune background music and synthesized retro sound effects for jumping, sliding, picking up coins, and crashing—requiring zero external audio files.
+7. Coin Collection & Visual Effects: Gather spinning gold coins along the track accompanied by custom synth pickup audio, gold particle bursts upon collection, and on-screen HUD coin tracking.
+8. Third-Person Dynamic Camera Follow: Immersive trailing camera system that tilts smoothly into lane shifts and triggers impact camera shake on collisions.
+9. Multi-Input Cross-Platform Controls: Full support for both desktop keyboard inputs (Arrow Keys / WASD / Spacebar) and mobile touch swipe gestures.
+10. Action Mechanics & Character Animations: Full jump and low-slide physics paired with dynamic character squish/scale body deformations, leg/arm running oscillations, and torso bounces.
 
 # Tech Stack & Implementation
-Prompt Engineering: Directed Claude AI to architect the logic, physics, and rendering pipeline.   
+1. 3D Graphics & Rendering Engine: Three.js (r128 WebGL renderer, PCF soft shadows, directional light maps, procedural geometry).
+2. Audio Processing: Native HTML5 Web Audio API (AudioContext, OscillatorNode, GainNode sound synth pipeline).
+3. Prompt Engineering: Directed AI to architect the logic, collision physics, synth sound synthesis, and rendering pipeline within a single self-contained HTML deliverable.
 
 # Control Mechanics
-Keyboard API: Captures keydown events for Arrow keys, WASD, and Spacebar navigation.   
-Touch / Gesture API: Custom swipe detection (touchstart and touchend) for mobile touch devices. 
+1. Keyboard API: Captures keydown events for Arrow keys (← / → / ↑ / ↓), WASD, and Spacebar navigation.
+2. Touch / Gesture API: Custom swipe detection (touchstart and touchend) calculating swipe vectors for mobile touch devices.
+
+# Gameplay screenshot
+![image_alt](https://github.com/vidhikalwani/Street-Dash/blob/4e2c679a06c85518c699e42f4515e4c3b2e57ec8/Game%20start%20page.jpeg)
