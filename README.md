@@ -1,32 +1,93 @@
-# Street-Dash
-Street Dash is a browser-based, retro-inspired, plain-style endless runner prompted by the me to Claude AI and generated with Claude AI. It features a blocky child character, a 3-lane track system, jump and slide movement, simple 3D obstacles, and a camera-follow setup.
+# 🏃 Street Dash
 
-# The Key Features of Street Dash 
-1. AI-Assisted Development: Designed through prompt engineering to generate complete, single-file HTML/JS game code powered by Three.js and the Web Audio API.
-2. 3D Environment & Atmospheric Lighting: Features a vibrant, infinite 3D street route surrounded by colorful, glowing high-rise buildings, ambient fill lights, and directional sun casting real-time soft shadows.
-3. 3-Lane Gameplay: Smoothly switch between three lanes (left, center, right) to navigate around obstacles and collect items.
-4. Varied Jump & Slide Obstacle Mechanics: Test your reflexes against low hurdles and roadblocks, overhead signs and low-hanging barriers, traffic cones, trash cans, and colorful cars.
-5. High-Tempo Progressive Speed & Difficulty Scaling: Game velocity starts at a high-tempo base pace (15) and automatically accelerates up to a fast-paced maximum speed (35) as your score rises, dramatically increasing the challenge over time.
-6. Synthesized Web Audio Engine & BGM: Fully procedural audio system built with the Web Audio API that generates custom looping chiptune background music and synthesized retro sound effects for jumping, sliding, picking up coins, and crashing—requiring zero external audio files.
-7. Coin Collection & Visual Effects: Gather spinning gold coins along the track accompanied by custom synth pickup audio, gold particle bursts upon collection, and on-screen coin tracking.
-8. Camera Follow: Immersive trailing camera system that tilts smoothly into lane shifts and triggers impact camera shake on collisions.
-9. Multi-Input Cross-Platform Controls: Full support for both desktop keyboard inputs and mobile touch swipe gestures.
-10. Action Mechanics & Character Animations: Full jump and low-slide physics paired with character scale body deformations and leg/arm running movements
+### A retro-style 3D endless runner you can play right in your browser
 
-# Tech Stack & Implementation
-1. 3D Graphics & Rendering Engine: Three.js (r128 WebGL renderer, PCF soft shadows, directional light maps, procedural geometry).
-2. Audio Processing: Native HTML5 Web Audio API (AudioContext, OscillatorNode, GainNode sound synth pipeline).
-3. Prompt Engineering: Directed AI to architect the logic, collision physics, synth sound synthesis, and rendering pipeline within a single self-contained HTML deliverable.
+▶️ **[Play it now](https://vidhikalwani.github.io/Street-Dash/)** (no download needed)
 
-# Control Mechanics
-1. Keyboard API: Captures keydown events for Arrow keys (← / → / ↑ / ↓), WASD, and Spacebar navigation.
-2. Touch / Gesture API: Custom swipe detection (touchstart and touchend) calculating swipe vectors for mobile touch devices.
+![Start screen](assets/Game%20start%20page.jpeg)
 
-# Gameplay screenshot
-![image_alt](https://github.com/vidhikalwani/Street-Dash/blob/4e2c679a06c85518c699e42f4515e4c3b2e57ec8/Game%20start%20page.jpeg)
-[![image_alt](https://github.com/vidhikalwani/Street-Dash/blob/cc7ded38e9df445a7ae06cbe061f93e868b11291/Playing%20the%20game%20(1).jpeg)
-![image_alt](https://github.com/vidhikalwani/Street-Dash/blob/cc7ded38e9df445a7ae06cbe061f93e868b11291/Playing%20the%20game%20(2).jpeg)
-[![image_alt](https://github.com/vidhikalwani/Street-Dash/blob/cc7ded38e9df445a7ae06cbe061f93e868b11291/When%20we%20lose.jpeg)
+Street Dash is a browser-based endless runner with a retro feel. You guide a blocky little character down a glowing 3D city street, switching lanes, jumping over hurdles, and sliding under barriers while collecting as many coins as you can. The longer you survive, the faster it gets.
 
-# Action Demo
-![video](https://github.com/vidhikalwani/Street-Dash/blob/cc7ded38e9df445a7ae06cbe061f93e868b11291/Playing%20the%20game.mp4)
+I built it by writing prompts for Claude AI, which generated the game code. The project taught me how to direct an AI to build something complete, from 3D graphics and collision physics to music and sound effects, all in a single HTML file.
+
+---
+
+## 🎮 How to Play
+
+**In your browser:** [click here to play](https://vidhikalwani.github.io/Street-Dash/). Nothing to install.
+
+**On your own computer:** download or clone this repo and open `index.html` in your browser.
+
+### Controls
+
+| Device | How to play |
+|---|---|
+| 💻 Desktop | Arrow keys (← → ↑ ↓), WASD, or Spacebar |
+| 📱 Mobile | Swipe on the touchscreen |
+
+---
+
+## 📸 Screenshots
+
+| Gameplay | Gameplay | Game over |
+|---|---|---|
+| ![Playing the game](assets/Playing%20the%20game%20(1).jpeg) | ![Playing the game](assets/Playing%20the%20game%20(2).jpeg) | ![Game over screen](assets/When%20we%20lose.jpeg) |
+
+🎥 **[Watch the gameplay demo](assets/Playing%20the%20game.mp4)**
+
+---
+
+## ✨ Features
+
+- **Infinite 3D street:** a vibrant city route surrounded by colorful, glowing high-rises, with ambient lights and a directional sun that casts real-time soft shadows.
+- **Three lanes:** switch between left, center, and right to dodge obstacles and collect items.
+- **Jump and slide challenges:** low hurdles and roadblocks, overhead signs and low-hanging barriers, traffic cones, trash cans, and colorful cars.
+- **Gets harder as you go:** speed starts at 15 and climbs to a maximum of 35 as your score rises.
+- **Music and sound effects with no audio files:** the looping chiptune soundtrack and the retro sounds for jumping, sliding, collecting coins, and crashing are all generated by code.
+- **Coins and effects:** spinning gold coins with a synth pickup sound, gold particle bursts, and an on-screen coin counter.
+- **Camera follow:** the camera trails behind you, tilts into lane changes, and shakes when you crash.
+- **Lively character:** your runner swings arms and legs, with body squash and stretch during jumps and slides.
+- **Works on desktop and mobile:** keyboard controls or touch swipes.
+
+---
+
+## 🛠️ Built With
+
+| Technology | What it does in the game |
+|---|---|
+| **Three.js (r128)** | WebGL rendering, soft shadows, directional lighting, and procedural geometry |
+| **Web Audio API** | Generates music and sound effects with oscillators and gain nodes |
+| **HTML + JavaScript** | The whole game lives in a single self-contained file |
+| **Claude AI** | Designed the game logic, collision physics, sound synthesis, and rendering from my prompts |
+
+### How the controls work
+- **Keyboard:** listens for `keydown` events from the arrow keys, WASD, and Spacebar.
+- **Touch:** detects swipes using `touchstart` and `touchend` and works out the swipe direction.
+
+---
+
+## 🧠 Game Logic in Python
+
+This repo also includes `Game logic .py`, a Python version of the game's core logic. It covers the player (lane switching, jumping, sliding), obstacles, coins, 3D collision detection, and the speed scaling from 15 to 35. It runs as a simple terminal simulation and is separate from the browser game.
+
+```bash
+python "Game logic .py"
+```
+
+---
+
+## 💭 What I Learned
+
+- **Prompt engineering:** how to guide an AI to build a complete single-file game, including the logic, collision physics, sound, and rendering.
+- **Three.js:** how a WebGL scene comes together with procedural geometry, soft shadows, and directional lighting.
+- **Web Audio API:** how to create music and sound effects from code using oscillators and gain nodes.
+- **Input handling:** how to support both keyboard events and touch swipes so the game works on any device.
+
+---
+
+## 👩‍💻 Author
+
+**Vidhi Kalwani**
+[GitHub](https://github.com/vidhikalwani)
+
+If you enjoyed the game, a ⭐ on the repo would make my day!
