@@ -2,7 +2,7 @@
 
 ### A retro-style 3D endless runner you can play right in your browser
 
-![Start screen]([assets/Game%20start%20page.jpeg](https://github.com/vidhikalwani/Street-Dash/blob/a6c9e413a874660f28c33cd42b7f9104c6dd88ef/Assets/Game%20start%20page.jpeg))
+![Start screen](https://github.com/vidhikalwani/Street-Dash/blob/a6c9e413a874660f28c33cd42b7f9104c6dd88ef/Assets/Game%20start%20page.jpeg)
 
 Street Dash is a browser-based endless runner with a retro feel. You guide a blocky little character down a glowing 3D city street, switching lanes, jumping over hurdles, and sliding under barriers while collecting as many coins as you can. The longer you survive, the faster it gets.
 
@@ -31,7 +31,7 @@ I built it by writing prompts for Claude AI, which generated the game code. The 
 |---|---|---|
 | ![Playing the game](https://github.com/vidhikalwani/Street-Dash/blob/a6c9e413a874660f28c33cd42b7f9104c6dd88ef/Assets/Playing%20the%20game%20(1).jpeg) | ![Playing the game](https://github.com/vidhikalwani/Street-Dash/blob/a6c9e413a874660f28c33cd42b7f9104c6dd88ef/Assets/Playing%20the%20game%20(2).jpeg) | ![Game over screen](https://github.com/vidhikalwani/Street-Dash/blob/a6c9e413a874660f28c33cd42b7f9104c6dd88ef/Assets/When%20we%20lose.jpeg) |
 
-🎥 **[Watch the gameplay demo](https://github.com/vidhikalwani/Street-Dash/blob/a6c9e413a874660f28c33cd42b7f9104c6dd88ef/Assets/Playing%20the%20game.mp4)**
+🎥 **[Watch the gameplay demo](https://github.com/vidhikalwani/Street-Dash/blob/a6c9e413a874660f28c33cd42b7f9104c6dd88ef/Assets/Playing%20the%20game.mp4)**(You need to download raw file unfortunately)
 
 ---
 
